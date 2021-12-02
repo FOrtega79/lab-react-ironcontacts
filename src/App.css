@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.centerAll{
+  
+  margin-left: 35%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +31,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.facePic{
+  width: 75px;
 }
 
 @keyframes App-logo-spin {
