@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .centerAll{
@@ -11,6 +11,46 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+table{
+  text-align: center;
+}
+th{
+  padding: 5px 20px;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.addChar{
+  padding: 10px 15px;
+  background-color: lightblue;
+  color: #282c34;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.addChar:hover{
+background-color: rgb(173, 230, 195);
+-webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.deleteBtn{
+  padding: 10px;
+  background-color: tomato;
+  color: white;
+  border: none;
+  font-size: 21px;
+  border-radius: 5px;
+}
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,7 +76,11 @@
 
 .facePic{
   width: 75px;
+  margin-right: 10px;
+  border-radius: 10px
 }
+
+
 
 @keyframes App-logo-spin {
   from {
